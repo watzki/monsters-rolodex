@@ -12,6 +12,11 @@
     transition: transform 0.25s ease-out;
   }
   
+  div img{
+    max-height: 100%;
+    object-fit:contain; /* Add this You can change it as your need */
+  }
+
   .card-container:hover {
     transform: scale(1.05);
   }
